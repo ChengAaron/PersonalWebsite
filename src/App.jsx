@@ -1,3 +1,5 @@
+import { useState, useEffect } from "react";
+
 const text = [
   {firstName: "AARON"},
   {lastName: "CHENG"},
@@ -5,7 +7,7 @@ const text = [
   {desc: "also known as chengs on discord"}
 ]
 
-const importantLinks = [
+const contactLinks = [
   {title: "GitHub", link: "https://github.com/ChengAaron"},
   {title: "LinkedIn", link: "https://www.linkedin.com/in/aaron-cheng-70a091195/"},
   {title: "Email", link: "mailto:cheng.aaron@proton.me"},
@@ -13,11 +15,20 @@ const importantLinks = [
   {title: "TCG Twitter", link: "https://x.com/imchengs"},
 ]
 
-const importantLinksList = importantLinks.map(
+const siteLinks = [
+  {title: "Blog"},
+  {title: "Resume"},
+  {title: "Vanguard Lists"},
+  {title: "One Piece TCG Lists"},
+  {title: "Peripherals"},
+  {title: "Coffee & Tea"},
+]
+
+const contactLinksList = contactLinks.map(
   (link) => <li className="text-secondary-content text-xl pl-2 pr-2"><a href={link.link} target="_blank" className="link link-hover">{link.title}</a></li>
 );
 
-function LinksList () {
+function ContactLinksComponent () {
   return (
     <div className="justify-center items-center col-span-2">
       <div className="justify-self-auto m-8 -mb-8 -mt-4">
@@ -25,7 +36,7 @@ function LinksList () {
         <p className="text-secondary-content text-xl">Other places to find me</p>
         <div className="divider divider-neutral m-0"></div>
         <ul className="list-disc list-inside columns-3">
-          {importantLinksList}
+          {contactLinksList}
         </ul>
       </div>
     </div>
@@ -57,6 +68,9 @@ function Bio({ bio }) {
   );
 }
 
+
+
+
 function ColorChange() {
   return (
     <div className="dropdown mb-72">
@@ -78,7 +92,8 @@ function ColorChange() {
             name="theme-dropdown"
             className="theme-controller btn btn-sm btn-block btn-ghost justify-start text-primary-content"
             aria-label="Oblivion"
-            value="oblivion" />
+            value="oblivion" 
+            onChange={() => localStorage.setItem("current", "oblivion")}/>
         </li>
         <li>
           <input
@@ -86,7 +101,8 @@ function ColorChange() {
             name="theme-dropdown"
             className="theme-controller btn btn-sm btn-block btn-ghost justify-start text-primary-content"
             aria-label="Olivia"
-            value="olivia" />
+            value="olivia" 
+            onChange={() => localStorage.setItem("current", "olivia")} />
         </li>
         <li>
           <input
@@ -94,7 +110,8 @@ function ColorChange() {
             name="theme-dropdown"
             className="theme-controller btn btn-sm btn-block btn-ghost justify-start text-primary-content"
             aria-label="Botanical"
-            value="botanical" />
+            value="botanical" 
+            onChange={() => localStorage.setItem("current", "botanical")} />
         </li>
         <li>
           <input
@@ -102,7 +119,8 @@ function ColorChange() {
             name="theme-dropdown"
             className="theme-controller btn btn-sm btn-block btn-ghost justify-start text-primary-content"
             aria-label="Nimbus"
-            value="nimbus" />
+            value="nimbus" 
+            onChange={() => localStorage.setItem("current", "nimbus")} />
         </li>
         <li>
           <input
@@ -110,7 +128,8 @@ function ColorChange() {
             name="theme-dropdown"
             className="theme-controller btn btn-sm btn-block btn-ghost justify-start text-primary-content"
             aria-label="Delta"
-            value="delta" />
+            value="delta"
+            onChange={() => localStorage.setItem("current", "delta")} />
         </li>
         <li>
           <input
@@ -118,7 +137,8 @@ function ColorChange() {
             name="theme-dropdown"
             className="theme-controller btn btn-sm btn-block btn-ghost justify-start text-primary-content"
             aria-label="Mizu"
-            value="mizu" />
+            value="mizu"
+            onChange={() => localStorage.setItem("current", "mizu")} />
         </li>
       </ul>
     </div>
@@ -133,15 +153,15 @@ function GridLayout() {
         </div>
         <div className="grid grid-cols-subgrid col-span-2 m-4">
           <Bio bio={text[2].bio} />
-          <LinksList />
-          <LinksList />
-          <LinksList />
+          <ContactLinksComponent />
+          <ContactLinksComponent />
         </div>
     </div>
   );
 }
 
 export default function App() {
+  document.documentElement.setAttribute("data-theme", localStorage.getItem("current"))
   return (
     <div className="font-courierPrime">
       <GridLayout />
