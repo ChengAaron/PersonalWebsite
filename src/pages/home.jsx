@@ -1,4 +1,5 @@
 import ContactLinks from "../components/contactLinks"
+import SiteLinks from "../components/hobbyLinks"
 import text from "../components/constants"
 import ColorChange from "../components/colorChanger";
 
@@ -36,6 +37,7 @@ export default function Home() {
         </div>
         <div className="grid grid-cols-subgrid col-span-2 m-4">
           <Bio />
+          <SiteLinks />
           <ContactLinks />
         </div>
       </div>

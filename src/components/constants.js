@@ -14,12 +14,11 @@ export const contactLinks = [
 ]
   
 export const siteLinks = [
-    {title: "Blog", link: ""},
-    {title: "Resume", link: "CV_AARON_CHENG.pdf"},
-    {title: "Vanguard Lists"},
-    {title: "One Piece TCG Lists"},
-    {title: "Peripherals"},
-    {title: "Coffee & Tea"},
+    {title: "Blog", link: "soon"},
+    {title: "Vanguard Lists", link: "./soon"},
+    {title: "One Piece TCG Lists", link: "./soon"},
+    {title: "Peripherals",  link: "./soon"},
+    {title: "Coffee & Tea", link: "./soon"},
 ]
 
 export default text
