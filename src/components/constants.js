@@ -15,10 +15,14 @@ export const contactLinks = [
   
 export const siteLinks = [
     {title: "Blog", link: "soon"},
-    {title: "Vanguard Lists", link: "./soon"},
+    {title: "Vanguard Lists", link: "./vgdecks"},
     {title: "One Piece TCG Lists", link: "./soon"},
     {title: "Peripherals",  link: "./soon"},
     {title: "Coffee & Tea", link: "./soon"},
+]
+
+export const vgDecks = [
+    {deckName: "Varga", deckLog: "https://decklog.bushiroad.com/view/375UP", writeup: "Lorem ipsum dolor sit amet. Vel quia sunt in dolor incidunt non pariatur quia aut internos magnam qui delectus Quis. Qui nihil voluptate nam illo aperiam At voluptatem adipisci et labore nostrum cum nulla officiis."}
 ]
 
 export default text
