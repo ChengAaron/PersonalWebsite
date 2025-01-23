@@ -67,6 +67,15 @@ export default function ColorChange() {
               value="yuru"
               onChange={() => localStorage.setItem("current", "yuru")} />
           </li>
+          <li>
+            <input
+              type="radio"
+              name="theme-dropdown"
+              className="theme-controller btn btn-sm btn-block btn-ghost justify-start text-primary-content"
+              aria-label="Serika"
+              value="serika"
+              onChange={() => localStorage.setItem("current", "serika")} />
+          </li>
         </ul>
       </div>
     );

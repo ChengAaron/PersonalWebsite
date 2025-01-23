@@ -3,7 +3,7 @@ import VGDeckLinks from "../components/vgDecksList"
 
 export default function Page() {
   document.documentElement.setAttribute("data-theme", localStorage.getItem("current"))
-  document.title = "Aaron Cheng - Soon";
+  document.title = "Aaron Cheng - VG Decklists";
   return (
     <div className="font-courierPrime">
       <div className="min-h-screen bg-secondary">

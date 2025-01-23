@@ -29,6 +29,7 @@ function Bio() {
 }
 
 export default function Home() {
+  document.title = "Aaron Cheng - Home";
   return (
     <div className="font-courierPrime">
       <div className="grid grid-cols-3 min-h-screen bg-secondary">
