@@ -10,9 +10,9 @@ function Title() {
       <h1 className="text-7xl text-primary-content">
         {text[0].firstName}<br />{text[1].lastName}
       </h1>
-      <p className="text-l text-primary-content mt-0.5">
+      <h2 className="text-l text-primary-content mt-0.5">
         {text[3].desc}
-      </p>
+      </h2>
       <ColorChange />
     </div>
   );
