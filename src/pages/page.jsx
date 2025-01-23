@@ -7,9 +7,9 @@ export default function Page() {
   return (
     <div className="font-courierPrime">
       <div className="min-h-screen bg-secondary">
-          <div className="p-4 m-auto">
-            <h1 className="text-secondary-content link-hover m-8"><Link to="/">Back</Link></h1>
-            <VGDeckLinks />
+          <div className="text-secondary-content p-4 m-auto">
+            <h1 className="link-hover m-8"><Link to="/">Back</Link></h1>
+            <p className="m-8">Coming Soon</p>
           </div>
       </div>
     </div>

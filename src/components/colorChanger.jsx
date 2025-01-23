@@ -18,15 +18,6 @@ export default function ColorChange() {
               type="radio"
               name="theme-dropdown"
               className="theme-controller btn btn-sm btn-block btn-ghost justify-start text-primary-content"
-              aria-label="Oblivion"
-              value="oblivion" 
-              onChange={() => localStorage.setItem("current", "oblivion")}/>
-          </li>
-          <li>
-            <input
-              type="radio"
-              name="theme-dropdown"
-              className="theme-controller btn btn-sm btn-block btn-ghost justify-start text-primary-content"
               aria-label="Olivia"
               value="olivia" 
               onChange={() => localStorage.setItem("current", "olivia")} />
@@ -66,6 +57,15 @@ export default function ColorChange() {
               aria-label="Mizu"
               value="mizu"
               onChange={() => localStorage.setItem("current", "mizu")} />
+          </li>
+          <li>
+            <input
+              type="radio"
+              name="theme-dropdown"
+              className="theme-controller btn btn-sm btn-block btn-ghost justify-start text-primary-content"
+              aria-label="Yuru"
+              value="yuru"
+              onChange={() => localStorage.setItem("current", "yuru")} />
           </li>
         </ul>
       </div>
