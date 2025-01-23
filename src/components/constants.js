@@ -1,6 +1,6 @@
 export const text = [
-    {firstName: "Aaron"},
-    {lastName: "Cheng"},
+    {firstName: "AARON"},
+    {lastName: "CHENG"},
     {bio: "ITEC @ YorkU | Semi-Competitive CFV and OPTCG Player | Mechanical Keyboard Nerd"},
     {desc: "also known as chengs on discord"}
 ]
