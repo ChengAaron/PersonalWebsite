@@ -1,4 +1,3 @@
-import { useState, useEffect } from "react";
 import { Analytics } from "@vercel/analytics/react"
 import { BrowserRouter as Router, Routes, Route, BrowserRouter } from "react-router";
 import HomePage from "./pages/home"
@@ -12,8 +11,8 @@ export default function App() {
       <Analytics />
       <Routes>
         <Route path="/" element={<HomePage />} />
-          <Route path="/vgdecks" element={<VGDecks />}  />
-          <Route path="/soon" element={<Soon />} />
+        <Route path="/vgdecks" element={<VGDecks />}  />
+        <Route path="/soon" element={<Soon />} />
       </Routes>
     </BrowserRouter>
   );
