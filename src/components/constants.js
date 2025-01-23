@@ -22,7 +22,9 @@ export const siteLinks = [
 ]
 
 export const vgDecks = [
-    {deckName: "Varga", deckLog: "https://decklog.bushiroad.com/view/375UP", writeup: "Lorem ipsum dolor sit amet. Vel quia sunt in dolor incidunt non pariatur quia aut internos magnam qui delectus Quis. Qui nihil voluptate nam illo aperiam At voluptatem adipisci et labore nostrum cum nulla officiis."}
+    {deckName: "Varga", deckLog: "https://decklog-en.bushiroad.com/view/2K0SY", writeup: "Shenryi feels good in Rasetsu, an unrespected rear allowing you to push with a full column rather than 1 rearguard for over 20k. List is feels mostly solved, however needs further testing to determine techs needed for current meta."},
+    {deckName: "Jheva", deckLog: "https://decklog-en.bushiroad.com/view/7D9JQ", writeup: "Difficult deck to pilot effectively, but has potential in current meta and very fun to play. Suffers from occasional bricking due to nature of deck. Cindi is a support card of all time however is held back since its not a prayer dragon. Hoping this deck will one day get a Vairina searcher that can grab directly from deck since it bricks not seeing overdress."},
+    {deckName: "Messiah", decklog: "", writeup: "Very excited to play this deck again with the new tools it got in set 6. Lady Battler gives you 8 locking front row, allowing you to be a little more liberal with your resources and playing grade 2. Need to test new into soul effect front trigger to see viability in the deck and the viability of 7-8 front in trigger line up."}
 ]
 
 export default text

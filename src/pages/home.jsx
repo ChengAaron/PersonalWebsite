@@ -2,7 +2,7 @@ import ContactLinks from "../components/contactLinks"
 import SiteLinks from "../components/hobbyLinks"
 import text from "../components/constants"
 import ColorChange from "../components/colorChanger";
-import Helmet from "react-helmet";
+import Helmet from "../components/SEO";
 
 function Title() {
   return (
@@ -33,10 +33,11 @@ export default function Home() {
   document.title = "Aaron Cheng - Home";
   return (
     <div className="font-courierPrime">
-      <Helmet>
-        <title>Aaron Cheng - Home</title>
-        <meta name="description" content="I'm a ITEC student at York University. I'm interested in data and love to talk about my various hobbies." />
-      </Helmet>
+      <Helmet
+        title = "Aaron Cheng - Home"
+        description = "I'm an Information Technology student at York University. I'm interested in data analytics, full-stack development and love to talk about my various hobbies."
+        canonical = "https://www.aaroncheng.xyz/" 
+      />
       <div className="grid grid-cols-3 min-h-screen bg-secondary">
         <div className="grid grid-cols-subgrid bg-primary place-items-center">
           <Title />

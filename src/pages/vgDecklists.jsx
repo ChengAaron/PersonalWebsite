@@ -8,7 +8,8 @@ export default function Page() {
     <div className="font-courierPrime">
       <div className="min-h-screen bg-secondary">
           <div className="p-4 m-auto">
-            <a className="text-secondary-content link-hover m-8"><Link to="/">Back</Link></a>
+            <a className="text-secondary-content link-hover m-8 pl-8 pr-8"><Link to="/">Back</Link></a>
+            <h1 className="text-xl text-secondary-content m-8 pl-8 pr-8">My current decklists for Cardfight Vanguard in DivineZ set 6 meta</h1>
             <VGDeckLinks />
           </div>
       </div>
