@@ -1,6 +1,6 @@
 export const text = [
-    {firstName: "AARON"},
-    {lastName: "CHENG"},
+    {firstName: "Aaron"},
+    {lastName: "Cheng"},
     {bio: "ITEC @ YorkU | Semi-Competitive CFV and OPTCG Player | Mechanical Keyboard Nerd"},
     {desc: "also known as chengs on discord"}
 ]
@@ -14,11 +14,11 @@ export const contactLinks = [
 ]
   
 export const siteLinks = [
-    {title: "Blog", link: "soon"},
     {title: "Vanguard Lists", link: "./vgdecks"},
     {title: "One Piece TCG Lists", link: "./soon"},
     {title: "Peripherals",  link: "./soon"},
     {title: "Coffee & Tea", link: "./soon"},
+    {title: "Blog", link: "./soon"},
 ]
 
 export const vgDecks = [
