@@ -6,12 +6,12 @@ const contactLinksList = constants.contactLinks.map(
   
 export default function ContactLinksComponent () {
     return (
-        <div className="justify-center items-center col-span-2">
+        <div className="justify-center items-center col-span-1 sm:col-span-2 mt-4">
         <div className="justify-self-auto m-8 -mb-8 -mt-4">
-            <p className="text-accent text-3xl mt-1">External Pages</p>
-            <p className="text-secondary-content text-xl">Other places to find me</p>
+            <p className="text-accent text-xl sm:text-3xl mt-1">External Pages</p>
+            <p className="text-secondary-content text-m sm:text-xl">Other places to find me</p>
             <div className="divider divider-neutral m-0"></div>
-            <ul className="list-disc list-inside columns-3">
+            <ul className="list-disc list-inside columns-1 sm:columns-3 sm:min-h-fit">
             {contactLinksList}
             </ul>
         </div>
