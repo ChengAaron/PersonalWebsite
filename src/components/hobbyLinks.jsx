@@ -10,7 +10,7 @@ siteLinksList.push(<li className="text-secondary-content text-m sm:text-xl pl-2 
   
 export default function siteLinksComponent () {
     return (
-        <div className="justify-center items-center col-span-1 sm:col-span-2 mt-4">
+        <div className="justify-center items-center col-span-1 sm:col-span-2">
         <div className="justify-self-auto m-8 -mb-8 -mt-4">
             <p className="text-accent text-xl sm:text-3xl mt-1">Internal Pages</p>
             <p className="text-secondary-content text-m sm:text-xl">Personal repository of my stuff</p>
