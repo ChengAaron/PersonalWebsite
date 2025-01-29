@@ -3,10 +3,10 @@ import { Link } from "react-router-dom"
 import RESUME from "../files/CV_AARON_CHENG.pdf"
 
 const siteLinksList = constants.siteLinks.map(
-    (link) => <li className="text-secondary-content text-xl pl-2 pr-2"><Link to={link.link} className="link link-hover">{link.title}</Link></li>
+    (link) => <li className="text-secondary-content text-m sm:text-xl pl-2 pr-2"><Link to={link.link} className="link link-hover">{link.title}</Link></li>
 );
 
-siteLinksList.push(<li className="text-secondary-content text-xl pl-2 pr-2 link link-hover"><a href={RESUME} target="_blank">Resume</a></li>)
+siteLinksList.push(<li className="text-secondary-content text-m sm:text-xl pl-2 pr-2 link link-hover"><a href={RESUME} target="_blank">Resume</a></li>)
   
 export default function siteLinksComponent () {
     return (

@@ -20,7 +20,7 @@ function Title() {
 
 function Bio() {
   return (
-    <div className="col-span-2">
+    <div className="col-span-2 sm:-mb-auto">
       <p className="text-l sm:text-xl text-center text-secondary-content">
       {text[2].bio}
       </p>
