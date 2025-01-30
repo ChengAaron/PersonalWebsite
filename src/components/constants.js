@@ -1,8 +1,8 @@
 export const text = [
-    {firstName: "AARON"},
+    {firstName: "AARON "},
     {lastName: "CHENG"},
-    {bio: "ITEC @ YorkU | Semi-Competitive CFV and OPTCG Player | Mechanical Keyboard Nerd"},
-    {desc: "also known as chengs on discord"}
+    {bio: "ITEC @ YorkU | Semi-Competitive CFV and OPTCG Player | Mechanical Keyboard Nerd | Coffee & Tea Enthusiast | Interested in Data Analytics and Full-Stack Dev"},
+    {desc: "also known as chengs on discord"},
 ]
 
 export const contactLinks = [
@@ -35,7 +35,8 @@ export const onePieceDecks = [
 export const projects = [
     {projectName: "Pype", projectLink: "https://github.com/RickyuXen/CHDHack", projectDesc: "Interpreted language built upon Python. Capable of performing simple arithmetic, variable assignment, and string manipulation."},
     {projectName: "NYC Amusement Park Analysis", projectLink: "https://github.com/ChengAaron/1130-Final", projectDesc: "Final project for university class, determining the viability of an amusement park in NYC based on demographic data. Utilized pandas and numpy to perform A/B analysis, data cleaning, and data visualization."},
-    {projectName: "Rice Data Analysis", projectLink:"", projectDesc: "Final project for university class, comparing 2 species of rice using over 6000 data points. Utilizaed MATLAB to perform A/B analysis and visualize data"},
+    {projectName: "Rice Data Analysis", projectLink:"", projectDesc: "Final project for university class, comparing 2 species of rice using over 6000 data points. Utilizaed MATLAB to perform A/B analysis, data cleaning, and data visualization"},
+    {projectName: "Morse", projectLink: "https://github.com/Surfs-Up", projectDesc: "Project developed for Surfs-Up Hacks 2021. Developed input device using Raspberry Pi and Arduino for Morse code input and connected frontend interface to backend server."}
 ]
 
 export default text
