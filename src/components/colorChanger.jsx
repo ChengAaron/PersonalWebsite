@@ -1,6 +1,6 @@
 export default function ColorChange() {
     return (
-      <div className="dropdown mt-4">
+      <div className="dropdown mt-2 mb-2">
         <div tabIndex={0} role="button" className="btn text-primary-content bg-primary">
           Keycaps
           <svg
