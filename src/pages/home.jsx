@@ -3,6 +3,7 @@ import SiteLinks from "../components/hobbyLinks"
 import text from "../components/constants"
 import ColorChange from "../components/colorChanger";
 import Helmet from "../components/SEO";
+import { HelmetProvider } from 'react-helmet-async';
 
 function Title() {
   return (
@@ -13,9 +14,6 @@ function Title() {
       <p className="text-l text-primary-content mt-0.5">
         {text[3].desc}
       </p>
-      <h1 className="hidden">
-        I'm an Information Technology student at YorkU. I'm interested in data analytics, full-stack development and love to talk about my various hobbies.
-      </h1>
       <ColorChange />
     </div>
   );
@@ -36,11 +34,13 @@ export default function Home() {
   document.title = "Aaron Cheng - Home";
   return (
     <div className="font-courierPrime">
-      <Helmet
-        title = "Aaron Cheng - Home"
-        description = "I'm an Information Technology student at York University. I'm interested in data analytics, full-stack development and love to talk about my various hobbies."
-        canonical = "https://www.aaroncheng.xyz/" 
-      />
+      <HelmetProvider>
+        <Helmet>
+          <title>Aaron Cheng - Home</title>
+          <meta name="description" content="I'm an Information Technology student at York University. I'm interested in data analytics, full-stack development and love to talk about my various hobbies." />
+          <meta name="canonical" content="https://www.aaroncheng.xyz/" />
+        </Helmet>
+      </HelmetProvider>
       <div className="grid grid-cols-1 sm:grid-cols-3 min-h-screen sm:min-w-screen bg-secondary">
         <div className="grid grid-cols-subgrid bg-primary place-items-center">
           <Title />
