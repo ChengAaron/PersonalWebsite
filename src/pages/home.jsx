@@ -7,13 +7,15 @@ import Helmet from "../components/SEO";
 function Title() {
   return (
     <div className="justify-center">
-      <h1 className="hidden">Hi I'm Aaron. I'm a ITEC student at YorkU. I'm interested in data analytics, full-stack dev and love to talk about my various hobbies.</h1>
       <p className="text-4xl sm:text-7xl text-primary-content">
         {text[0].firstName}<br />{text[1].lastName}
       </p>
       <p className="text-l text-primary-content mt-0.5">
         {text[3].desc}
       </p>
+      <h1 className="hidden">
+        I'm an Information Technology student at YorkU. I'm interested in data analytics, full-stack development and love to talk about my various hobbies.
+      </h1>
       <ColorChange />
     </div>
   );
@@ -39,7 +41,7 @@ export default function Home() {
         description = "I'm an Information Technology student at York University. I'm interested in data analytics, full-stack development and love to talk about my various hobbies."
         canonical = "https://www.aaroncheng.xyz/" 
       />
-      <div className="grid grid-cols-1 sm:grid-cols-3 min-h-screen sm:min-w-screen bg-secondary sm:overflow-scroll">
+      <div className="grid grid-cols-1 sm:grid-cols-3 min-h-screen sm:min-w-screen bg-secondary">
         <div className="grid grid-cols-subgrid bg-primary place-items-center">
           <Title />
         </div>
