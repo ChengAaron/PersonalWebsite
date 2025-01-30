@@ -35,11 +35,11 @@ export default function Home() {
   return (
     <div className="font-courierPrime">
       <HelmetProvider>
-        <Helmet>
-          <title>Aaron Cheng - Home</title>
-          <meta name="description" content="I'm an Information Technology student at York University. I'm interested in data analytics, full-stack development and love to talk about my various hobbies." />
-          <meta name="canonical" content="https://www.aaroncheng.xyz/" />
-        </Helmet>
+        <Helmet
+          title = "Aaron Cheng - Home"
+          description = "I'm an Information Technology student at York University. I'm interested in data analytics, full-stack development and love to talk about my various hobbies."
+          canonical = "https://www.aaroncheng.xyz/" 
+        />
       </HelmetProvider>
       <div className="grid grid-cols-1 sm:grid-cols-3 min-h-screen sm:min-w-screen bg-secondary">
         <div className="grid grid-cols-subgrid bg-primary place-items-center">
