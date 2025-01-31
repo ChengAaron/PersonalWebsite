@@ -33,9 +33,9 @@ export const onePieceDecks = [
 ]
 
 export const projects = [
-    {projectName: "Pype", projectLink: "https://github.com/RickyuXen/CHDHack", projectDesc: "Interpreted language built upon Python. Capable of performing simple arithmetic, variable assignment, and string manipulation."},
-    {projectName: "NYC Amusement Park Analysis", projectLink: "https://github.com/ChengAaron/1130-Final", projectDesc: "Final project for university class, determining the viability of an amusement park in NYC based on demographic data. Utilized pandas and numpy to perform A/B analysis, data cleaning, and data visualization."},
-    {projectName: "Rice Data Analysis", projectLink:"", projectDesc: "Final project for university class, comparing 2 species of rice using over 6000 data points. Utilizaed MATLAB to perform A/B analysis, data cleaning, and data visualization"},
+    {projectName: "Pype", projectLink: "https://github.com/RickyuXen/CHDHack", projectDesc: "Project developed for CTRL-HACK-DEL at YorkU, interpreted language built upon Python. Capable of performing simple arithmetic, variable assignment, and string manipulation."},
+    {projectName: "NYC Amusement Park Analysis", projectLink: "https://github.com/ChengAaron/1130-Final", projectDesc: "Final project for university class, determining the viability of an amusement park in NYC based on demographic data with over 300,000 unique data points. Utilized pandas and numpy to perform A/B analysis, data cleaning, and data visualization."},
+    {projectName: "Rice Data Analysis", projectLink:"https://docs.google.com/document/d/16CW2PEl3zqXL-1toXJl6C3nGrn50e9VXkvEMc-DK5xc/edit?usp=sharing", projectDesc: "Final project for university class, comparing 2 species of rice using over 6000 data points. Utilizaed MATLAB to perform A/B analysis, data cleaning, and data visualization"},
     {projectName: "Morse", projectLink: "https://github.com/Surfs-Up", projectDesc: "Project developed for Surfs-Up Hacks 2021. Developed input device using Raspberry Pi and Arduino for Morse code input and connected frontend interface to backend server."}
 ]
 
