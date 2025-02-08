@@ -8,8 +8,8 @@ import { HelmetProvider } from 'react-helmet-async';
 function Title() {
   return (
     <div className="justify-center">
-      <p className="text-4xl sm:text-7xl text-primary-content">
-        {text[0].firstName}<br />{text[1].lastName}
+      <p className="text-4xl sm:text-7xl text-primary-content sm:text-left text-center">
+        {text[0].firstName}<br class="hidden sm:inline" />{text[1].lastName}
       </p>
       <p className="text-l text-primary-content mt-0.5">
         {text[3].desc}
