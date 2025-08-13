@@ -27,6 +27,7 @@ export const vgDecks = [
 ]
 
 export const projects = [
+    {projectName: "F1 Dashboard", projectLink: "https://f1-dashboard-alpha.vercel.app/", projectDesc: "Dashboard made with PowerBI utilizing Excel, Dax and PowerQuery to analyze F1 data from the 1950 to 2024 seasons."},
     {projectName: "Pype", projectLink: "https://github.com/RickyuXen/CHDHack", projectDesc: "Project developed for CTRL-HACK-DEL at YorkU, interpreted language built upon Python. Capable of performing simple arithmetic, variable assignment, and string manipulation."},
     {projectName: "NYC Amusement Park Analysis", projectLink: "https://github.com/ChengAaron/1130-Final", projectDesc: "Final project for university class, determining the viability of an amusement park in NYC based on demographic data with over 300,000 unique data points. Utilized pandas and numpy to perform A/B analysis, data cleaning, and data visualization."},
     {projectName: "Rice Data Analysis", projectLink:"https://docs.google.com/document/d/16CW2PEl3zqXL-1toXJl6C3nGrn50e9VXkvEMc-DK5xc/edit?usp=sharing", projectDesc: "Final project for university class, comparing 2 species of rice using over 6000 data points. Utilizaed MATLAB to perform A/B analysis, data cleaning, and data visualization"},
