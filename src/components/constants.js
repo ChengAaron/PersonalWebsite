@@ -1,7 +1,7 @@
 export const text = [
     {firstName: "AARON "},
     {lastName: "CHENG"},
-    {bio: "ITEC @ YorkU | Semi-Competitive Gundam TCG Player | Mechanical Keyboard Nerd | Coffee & Tea Enthusiast | Interested in PM, Big Data, Full-Stack and Enterprize Software Dev"},
+    {bio: "ITEC @ YorkU | Semi-Competitive Gundam TCG Player | Mechanical Keyboard Nerd | Coffee & Tea Enthusiast | Interested in PM, Big Data, Full-Stack and Enterprise Software Dev"},
     {desc: "also known as chengs on discord"},
 ]
 
